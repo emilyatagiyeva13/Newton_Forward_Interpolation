@@ -70,7 +70,7 @@ export default function NewtonForwardInterpolation() {
 
       <input
         type="number"
-        placeholder="Addımı daxil edin"
+        placeholder="x üçün təxmini qiymət"
         className="w-full p-2 border mb-3"
         value={xValue}
         onChange={(e) => setXValue(e.target.value)}
